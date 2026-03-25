@@ -1,10 +1,11 @@
-# Code for paper: High Precision Event Synchronization for Chronic Deep Brain Stimulation Local Field Potential Recordings
-We provide code to use our synchornization approach based on transcutaneous electrical stimulation in Matlab and Python in the folders Matlab_synchronization_funcitons and Python_synchronization_functions, respectively.
+## Code for paper: High Precision Event Synchronization for Chronic Deep Brain Stimulation Local Field Potential Recordings
+In the paper "High-Precision Event Synchronization for Chronic Deep Brain Stimulation Local Field Potential Recordings" we show and evaluate the synchronization of Medtronic Percept DBS local field potential (LFP) recordings to EEG recordings using Transcutaneous subcutaneous stimulation (TES) to induce matching artifacts in both recordings.
 
-For loading and preprocessing of the LFP data in Matlab we suggest using an already available toolbox e.g. https://github.com/jgvhabets/PyPerceive
+This repository contains 3 folders:
+- Python_synchronization_functions: functions for loading, preprocessing and synchronizing LFP recordings to EEG recordings based on TES artefacts in Python
+- Matlab_synchronization_funcitons: functions for synchronizing LFP and EEG recordings based on TES artefacts in Matlab, for loading and preprocessing of the LFP data from   ".json" files we recommend using an already avaliable toolbox e.g. https://github.com/jgvhabets/PyPerceive
+- Paper_analysis_code: Code for replicating our analysis from the paper
 
-For Python we provide all necessary scripts.
+One example recording for testing the synchronization is provided via the Open Science Framework (OSF) repository (https://osf.io/dnvgb)
 
-The folder Paper_analysis_code includes skripts for reproducing our analysis and plots as described in the data.
-One annonymized sample LFP and EEG recording can be found at xx.
 
